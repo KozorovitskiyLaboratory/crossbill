@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/reset.png</file>
+    <file>icons/Gray_btn.png</file>
+    <file>icons/Green_btn.png</file>
+    <file>icons/logo.png</file>
+    <file>icons/Red_btn.png</file>
+  </qresource>
+</RCC>
