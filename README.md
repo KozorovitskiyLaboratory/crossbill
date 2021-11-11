@@ -4,6 +4,9 @@ Crossbill project covers an open access single objective light-sheet microscopy 
 
 # Installation
 
+OS dependence: Windows
+(this dependence is due to the DAQ and stage drivers used in the current project)
+
 #### Installation Pre-requisite
 Install Instacal (from Measurement Computing) and MCL (MadCityLabs) drivers. This is not required for installation of *crossbill*, but is required when trying to run the GUI. 
 
