@@ -3,7 +3,7 @@ Crossbill project covers an open access single objective light-sheet microscopy 
 
 # Installation
 
-1. Building *crossbill* environment using setup file / pip:
+#### 1. Building *crossbill* environment using setup file / pip:
 
   Try the following on the anaconda (https://www.anaconda.com/products/individual-d) commpand prompt. Note: Admin previledges are required on this command prompt to be able to create required environment.
 
@@ -14,7 +14,7 @@ Crossbill project covers an open access single objective light-sheet microscopy 
   pip install -e . 
   ```
 
-2. Building *crossbill* environment line by line using conda:
+#### 2. Building *crossbill* environment line by line using conda:
 
   Try the following on the anaconda (https://www.anaconda.com/products/individual-d) commpand prompt. Note: Admin previledges are required on this command prompt to be able to create required environment.
 
