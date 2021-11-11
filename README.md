@@ -8,7 +8,7 @@ OS dependence: Windows
 (this dependence is due to the DAQ and stage drivers used in the current project)
 
 #### Installation Pre-requisite
-Install Instacal (from Measurement Computing) and MCL (MadCityLabs) drivers. This is not required for installation of *crossbill*, but is required when trying to run the GUI. 
+Install Instacal (from Measurement Computing) and MCL (MadCityLabs) drivers. This is not required for installation of *crossbill*, but is essential to successfully run the GUI. 
 
 Try the following on the anaconda (https://www.anaconda.com/products/individual-d) commpand prompt. Note: Admin previledges are required on this command prompt to be able to create required environment.
 
