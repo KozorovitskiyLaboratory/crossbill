@@ -33,6 +33,7 @@ Once installed, get to the directory containing crossbill-mini.py file, and run 
 cd crossbill-mini
 python crossbill-mini.py
 ```
+Note: src folder contents may be required to be manually copied to the crossbill-mini folder if 2nd approach for installation was used. 
 
 ## crossbill-mini
 This contains a python compatible GUI to provide software support for Crossbill microscope.
@@ -41,3 +42,5 @@ This is windows compatible. Compatibility to other OS is limited due to incorpor
 ## rpi-pico-crossbill
 This contains an arduino compatible code which can be uploaded to a Raspberry Pi Pico board to be used with Crossbill microscope.
 
+## src
+This folder has various functions/methods associated with DAQ and Stage.
