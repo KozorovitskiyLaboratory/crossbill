@@ -10,8 +10,8 @@ Last modified: July, 2021
 from PyQt5 import QtCore, QtGui, QtWidgets
 from crossbillUI import Ui_MainWindow
 #from crossbillcfgUI import Ui_cfgDialog
-from stage import MCL_MicroDrive
-from daq import MCCdaq
+from crossbill.stage import MCL_MicroDrive
+from crossbill.daq import MCCdaq
 import math, re, json, numpy, traceback, emoji
 from datetime import datetime 
 
