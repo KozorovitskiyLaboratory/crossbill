@@ -12,6 +12,7 @@ Crossbill mini has DAQ and stage control and works in conjunction with any exter
 How to get started?
 
 Try the following on the anaconda (https://www.anaconda.com/products/individual-d) commpand prompt.
+
 Note: Admin previledges are required on this command prompt to be able to create required environment. 
 
 Once `crossbill` is installed , get to the directory containing `crossbill-mini.py` file, and run it with python:
@@ -19,16 +20,9 @@ Once `crossbill` is installed , get to the directory containing `crossbill-mini.
 cd crossbill-mini
 python crossbill-mini.py
 ```
-```python
-conda create -n crossbill python numpy pyqt qtpy qdarkstyle pip
-conda activate crossbill
-conda install -c conda-forge emoji
-pip install mcculw 
-python Crossbill_mini.py
-```
 
 Congratulations if you could get to the crossbill mini GUI without any errors.
 
-mcculw is meant for the Measurement Computing DAQ board. Instacal must be pre-installed before actually using the DAQ hardware.
+Instacal must be pre-installed before actually using the Measurement Computing DAQ hardware.
 
 Stage will work only if MadCityLabs drivers are properly installed.
