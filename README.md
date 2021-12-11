@@ -1,5 +1,5 @@
 # crossbill
-Crossbill project covers an open access single objective light-sheet microscopy platform. This repository mainly covers the software aspect of this project. More details about this project is accessible at the accompanying BioRxiv pre-print at doi: [10.1101/2021.04.30.442190](https://doi.org/10.1101/2021.04.30.442190)
+Crossbill project covers an open access single objective light-sheet microscopy platform. This repository mainly covers the software aspect of this project. More details about this project is accessible at the accompanying BioRxiv pre-print at doi: [10.1101/2021.04.30.442190](https://www.biorxiv.org/content/10.1101/2021.04.30.442190v1.full)
 
 
 # Installation
