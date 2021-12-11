@@ -12,7 +12,7 @@ Install Instacal (from Measurement Computing) and MCL (MadCityLabs) drivers. Thi
 
 Try the following on the anaconda (https://www.anaconda.com/products/individual-d) commpand prompt. Note: Admin previledges are required on this command prompt to be able to create required environment.
 
-#### 1. Building *crossbill* environment using setup file / pip:  
+#### Approach 1. Building *crossbill* environment using setup file / pip:  
 
   Download crossbill repository, unzip it, get to the folder containing setup.cfg file and then use the following:
   ```
@@ -21,7 +21,7 @@ Try the following on the anaconda (https://www.anaconda.com/products/individual-
   pip install -e . 
   ```
 
-#### 2. Building *crossbill* environment line by line using conda:
+#### Approach 2. Building *crossbill* environment line by line using conda:
 
   ```
   conda create -n crossbill python numpy pyqt qtpy qdarkstyle pip
