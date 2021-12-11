@@ -30,7 +30,7 @@ from crossbillUI import Ui_MainWindow
 #from crossbillcfgUI import Ui_cfgDialog
 from crossbill.stage import MCL_MicroDrive
 from crossbill.daq import MCCdaq
-import math, re, json, numpy, traceback, emoji
+import math, re, json, numpy, traceback, emoji, traceback
 from datetime import datetime 
 
 class WorkerSignals(QtCore.QObject):
@@ -639,8 +639,12 @@ class myWindow(QtWidgets.QMainWindow, Ui_MainWindow, MCCdaq, MCL_MicroDrive):
     ############## Stage UI functions ##############
 
     def connectvsdisconnectstage(self):
-        if self.connect_stage_pushButton.text() == 'Connect':            
-            self.initializationstage()
+        if self.connect_stage_pushButton.text() == 'Connect':  
+            try:
+                self.initializationstage()
+            except Exception:
+                self.msg += '\n'
+                self.msg += traceback.format_exc()
         else:
             self.connect_stage_pushButton.setText('Connect')
             self.stage_disconnect()
