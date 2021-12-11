@@ -40,7 +40,8 @@ Try the following on the anaconda (https://www.anaconda.com/products/individual-
 #### Approach 1. Building *crossbill* environment using setup file / pip:  
 
   Download crossbill repository, unzip it, get to the folder containing setup.cfg file and then use the following:
-  ```
+  
+  ```python
   conda create -n crossbill pip
   conda activate crossbill
   pip install -e . 
@@ -48,15 +49,16 @@ Try the following on the anaconda (https://www.anaconda.com/products/individual-
 
 #### Approach 2. Building *crossbill* environment line by line using conda:
 
-  ```
+  ```python
   conda create -n crossbill python numpy pyqt qtpy qdarkstyle pip
   conda activate crossbill
   conda install -c conda-forge emoji
   pip install mcculw 
   ```
 
-Once installed, get to the directory containing crossbill-mini.py file, and run it with python:
-```
+Once installed, get to the `crossbill-mini` directory, and run `crossbill-mini.py` file with python:
+
+```python
 cd crossbill-mini
 python crossbill-mini.py
 ```
