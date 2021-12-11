@@ -14,6 +14,11 @@ How to get started?
 Try the following on the anaconda (https://www.anaconda.com/products/individual-d) commpand prompt.
 Note: Admin previledges are required on this command prompt to be able to create required environment. 
 
+Once `crossbill` is installed , get to the directory containing `crossbill-mini.py` file, and run it with python:
+```python
+cd crossbill-mini
+python crossbill-mini.py
+```
 ```python
 conda create -n crossbill python numpy pyqt qtpy qdarkstyle pip
 conda activate crossbill
