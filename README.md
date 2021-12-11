@@ -53,7 +53,6 @@ Try the following on the anaconda (https://www.anaconda.com/products/individual-
   conda activate crossbill
   conda install -c conda-forge emoji
   pip install mcculw 
-  python crossbill-mini.py
   ```
 
 Once installed, get to the directory containing crossbill-mini.py file, and run it with python:
