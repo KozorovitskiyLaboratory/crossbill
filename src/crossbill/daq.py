@@ -294,9 +294,3 @@ class MCCdaq:
             self.msg += 'DAQ device de-initialized.\n'
         except:
             self.msg += '\U000026A0 Error in DAQ device de-initialization.\n'
-
-
-if __name__ != "main":
-    import ctypes, pathlib, os
-else:
-    pass 
