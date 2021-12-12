@@ -70,6 +70,10 @@ python crossbill-mini.py
 ```
 Note: src folder contents may be required to be manually copied to the crossbill-mini folder if 2nd approach for installation was used. 
 
+Some known errors:
+- OSError: [WinError 126] The specified module could not be found
+(This error is likely due to missing Instacal - ensure that Instacal - from Meurement Computing - was installed properly.)
+
 ## crossbill-mini
 This contains a python compatible GUI to provide software support for Crossbill microscope.
 This is windows compatible. Compatibility to other OS is limited due to incorporated hardware drivers.
