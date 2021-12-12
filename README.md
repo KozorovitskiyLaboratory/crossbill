@@ -74,18 +74,20 @@ Some known errors:
 - from crossbill.daq import MCCdaq
 (If an error shows up related to this line of code, it is likely due to missing Instacal - ensure that Instacal - from Meurement Computing - was installed properly.)
 
-## crossbill-mini
+## Below folders are available in the `crossbill` project page at github or zenodo
+
+### chamber
+This contains 3D printable files related to the water chamber
+
+### crossbill-mini
 This contains a python compatible GUI to provide software support for Crossbill microscope.
 This is windows compatible. Compatibility to other OS is limited due to incorporated hardware drivers.
 
-(This folder is available from the `crossbill` project page at github or zenodo)
+### dist
+This contains distribution files which may be used with `pip install` (Not required if you got installation working with above approaches). 
 
-## rpi-pico-crossbill
+### rpi-pico-crossbill
 This contains an arduino compatible code which can be uploaded to a Raspberry Pi Pico board to be used with Crossbill microscope.
 
-(This folder is available from the `crossbill` project page at github or zenodo)
-
-## src
+### src
 This folder has various functions/methods associated with DAQ and Stage.
-
-(This folder is available from the `crossbill` project page at github or zenodo)
