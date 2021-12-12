@@ -41,6 +41,8 @@ Try the following on the anaconda (https://www.anaconda.com/products/individual-
 
 Note: Admin previledges are required on this command prompt to be able to create required environment.
 
+`pip install` is most preferred, but alternate approaches are listed below:
+
 #### Approach 1. Building *crossbill* environment using setup file / pip:  
 
   Download crossbill repository, unzip it, get to the folder containing setup.cfg file and then use the following:
@@ -60,7 +62,7 @@ Note: Admin previledges are required on this command prompt to be able to create
   pip install mcculw 
   ```
 
-Once installed, get to the `crossbill-mini` directory, and run `crossbill-mini.py` file with python:
+Once installed, get to the `crossbill-mini` directory (download it from github or zenodo), and run `crossbill-mini.py` file with python:
 
 ```python
 cd crossbill-mini
