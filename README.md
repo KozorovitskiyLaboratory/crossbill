@@ -73,12 +73,15 @@ Note: src folder contents may be required to be manually copied to the crossbill
 ## crossbill-mini
 This contains a python compatible GUI to provide software support for Crossbill microscope.
 This is windows compatible. Compatibility to other OS is limited due to incorporated hardware drivers.
+
 (This folder is available from the Crossbill project page at github or zenodo)
 
 ## rpi-pico-crossbill
 This contains an arduino compatible code which can be uploaded to a Raspberry Pi Pico board to be used with Crossbill microscope.
+
 (This folder is available from the Crossbill project page at github or zenodo)
 
 ## src
 This folder has various functions/methods associated with DAQ and Stage.
+
 (This folder is available from the Crossbill project page at github or zenodo)
