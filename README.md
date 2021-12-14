@@ -86,7 +86,7 @@ This contains a python compatible GUI to provide software support for Crossbill 
 This is windows compatible. Compatibility to other OS is limited due to incorporated hardware drivers.
 
 ### dist
-This contains distribution files which may be used with `pip install` (Not required if you got installation working with above approaches). 
+This contains distribution files which may be used with the preferred `pip install` approach. 
 
 ### rpi-pico-crossbill
 This contains an arduino compatible code which can be uploaded to a Raspberry Pi Pico board to be used with Crossbill microscope.
