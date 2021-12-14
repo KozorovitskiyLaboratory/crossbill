@@ -41,7 +41,9 @@ Try the following on the anaconda (https://www.anaconda.com/products/individual-
 
 Note: Admin previledges are required on this command prompt to be able to create required environment.
 
-`pip install` is most preferred, but alternate approaches are listed below:
+`pip install crossbill-0.0.1-py3-none-any.whl` (this .whl file can be found in the /dist folder)
+
+Above is the most preferred approach, but alternate (cumbersome) ones are listed below:
 
 #### Approach 1. Building *crossbill* environment using setup file / pip:  
 
