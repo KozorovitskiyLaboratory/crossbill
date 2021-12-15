@@ -76,7 +76,7 @@ Note: src folder contents may be required to be manually copied to the crossbill
 
 Some known errors:
 - from crossbill.daq import MCCdaq
-(If an error shows up related to this line of code, it is likely due to missing Instacal - ensure that Instacal - from Meurement Computing - was installed properly.)
+(If an error shows up related to this line of code, it is likely due to missing Instacal - ensure that Instacal - from Measurement Computing - was installed properly.)
 
 ## Below folders are available in the `crossbill` project page at github or zenodo
 
