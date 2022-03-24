@@ -2,32 +2,7 @@
 Crossbill project covers an open access single objective light-sheet microscopy platform. 
 This repository covers the software aspect of this project. More details about this project is accessible at the accompanying bioRxiv pre-print at doi: [10.1101/2021.04.30.442190](https://www.biorxiv.org/content/10.1101/2021.04.30.442190v1.full)
 
-Caution: This project is in alpha phase of development!
-
-This is made available under the following license:
-____________________________
-MIT License
-
-Copyright (c) 2021 Manish Kumar
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-____________________________
+An interactive 3D blender file for assembly and parts list is accessible at [10.5281/zenodo.6380689](https://doi.org/10.5281/zenodo.6380689)
 
 # Installation
 
@@ -78,7 +53,7 @@ Some known errors:
 - from crossbill.daq import MCCdaq
 (If an error shows up related to this line of code, it is likely due to missing Instacal - ensure that Instacal - from Measurement Computing - was installed properly.)
 
-## Below folders are available in the `crossbill` project page at github or zenodo
+## Folders available in the `crossbill` project
 
 ### chamber
 This contains 3D printable files related to the water chamber
@@ -95,3 +70,30 @@ This contains an arduino compatible code which can be uploaded to a Raspberry Pi
 
 ### src
 This folder has various functions/methods associated with DAQ and Stage.
+
+# License:
+
+Caution: This project (software) is in alpha phase of development!
+____________________________
+MIT License
+
+Copyright (c) 2021 Manish Kumar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+____________________________
